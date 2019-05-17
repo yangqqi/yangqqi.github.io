@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "使用 Jekyll 默认主题初始化 GitHub Pages"
+title: "编程平台"
 date: 2019-05-17 12:09:00 +0800
 categories: coding
 ---
