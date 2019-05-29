@@ -33,9 +33,8 @@ win10 使用 [RubyInstaller](https://rubyinstaller.org/downloads/) 安装。
 
     cd myblog
 
-    bundle exec
+    bundle exec jekyll serve
 
-    jekyll serve
 
 测试访问：http://127.0.0.1:4000/
 
@@ -50,8 +49,6 @@ win10 使用 [RubyInstaller](https://rubyinstaller.org/downloads/) 安装。
     C:/Ruby25-x64/lib/ruby/2.5.0/rubygems/core_ext/kernel_require.rb:59:in `require': cannot load such file -- bundler (LoadError)
 
 解决：
-
-    gem install bundler
 
     bundle install
 
