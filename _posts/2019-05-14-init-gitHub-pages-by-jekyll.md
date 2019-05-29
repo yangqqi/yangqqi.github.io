@@ -9,43 +9,17 @@ categories: blog
 
 # 安装 Ruby
 
-win10 使用 [RubyInstaller](https://rubyinstaller.org/downloads/) 安装，记住安装路径。
+win10 使用 [RubyInstaller](https://rubyinstaller.org/downloads/) 安装。
 
-    C:\Ruby25-x64
-
-注意添加环境变量：
-
-    C:\Ruby25-x64\bin;
-
-检查 Ruby 版本号：
+检查 Ruby & Gem 版本号：
 
     ruby --version
-
-# 安装 DevKit
-
-同样到 [RubyInstaller](https://rubyinstaller.org/downloads/) 下载 Development Kit (old)，解压，记住路径。
-
-    C:\DevKit
-
-进入目录，初始化。
-
-    ruby dk.rb init
-
-打开 config.yml 添加
-
-    - C:/Ruby25-x64
-
-依次执行以下命令：
-
-    ruby dk.rb review # 审查（非必须）
-
-    ruby dk.rb install # 安装
 
     gem --version # 查看gem是否正常安装
 
 # 安装 Jkeyll
 
-    gem install jekyll
+    gem install jekyll bundler
 
 检查 Jekyll 版本号：
 
@@ -58,6 +32,8 @@ win10 使用 [RubyInstaller](https://rubyinstaller.org/downloads/) 安装，记�
 # 运行服务器
 
     cd myblog
+
+    bundle exec
 
     jekyll serve
 
@@ -84,3 +60,5 @@ win10 使用 [RubyInstaller](https://rubyinstaller.org/downloads/) 安装，记�
 # Reference
 
 [windows 安装 jekyll 步骤及问题--彭世瑜](https://blog.csdn.net/mouday/article/details/79300135)
+
+[Jekyll 快速入门](https://www.jekyll.com.cn/docs/)
