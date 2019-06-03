@@ -4,11 +4,16 @@ title: "使用 Jekyll 默认主题初始化 GitHub Pages"
 date: 2019-05-14 18:20:00 +0800
 categories: blog
 ---
-记录第一次使用 [Jekyll](https://www.jekyll.com.cn/) 初始化 [GitHub Pages](https://yngkay.github.io/)。
+记录第一次使用 [Jekyll][Jekyll] 初始化 [GitHub Pages][GitHub Pages]。
+
+[Jekyll]: https://www.jekyll.com.cn/
+[GitHub Pages]: https://yngkay.github.io/
 
 ## 安装 Ruby
 
-**win10** 使用 [RubyInstaller](https://rubyinstaller.org/downloads/) 安装。
+win10 使用 [RubyInstaller][RubyInstaller] 安装。
+
+[RubyInstaller]: https://rubyinstaller.org/downloads/
 
 检查 **Ruby** & **Gem** 版本号：
 
@@ -53,8 +58,6 @@ categories: blog
 解决：
 
     bundle install
-
-**Done!**
 
 ## Reference
 
