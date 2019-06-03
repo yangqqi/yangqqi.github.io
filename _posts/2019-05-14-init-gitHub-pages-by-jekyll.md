@@ -4,7 +4,6 @@ title: "使用 Jekyll 默认主题初始化 GitHub Pages"
 date: 2019-05-14 18:20:00 +0800
 categories: blog
 ---
-
 记录第一次使用 [Jekyll](https://www.jekyll.com.cn/) 初始化 [GitHub Pages](https://yngkay.github.io/)。
 
 ## 安装 Ruby
@@ -38,6 +37,8 @@ categories: blog
 测试访问：[http://127.0.0.1:4000/](http://127.0.0.1:4000/)
 
 ---
+
+## 遇到问题
 
 报错：
 
