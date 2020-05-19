@@ -1,19 +1,22 @@
-sudo: false
-language: node_js
-node_js:
-  - 10 # use nodejs v10 LTS
+language: node_js	language: node_js
+node_js:	node_js:
+  - 10 # use nodejs v10 LTS	  - 10 # use nodejs v10 LTS
+
 cache: npm
-branches:
-  only:
-    - hexo-project # build master branch only
-script:
-  - hexo generate # generate static files
-deploy:
-  provider: pages
+branches:	branches:
+  only:	  only:
+    - hexo-project	    - hexo-project # build master branch only
+
+install:	
+- npm ci	
+# keep the npm cache around to speed up installs	
+cache:	
+  directories:	
+  - "$HOME/.npm"	
+
+script:	script:
+  - hexo generate # generate static files	  - hexo generate # generate static files
+
+deploy:	deploy:
+  provider: pages	  provider: pages
   skip-cleanup: true
-  github-token: $GH_TOKEN
-  keep-history: true
-  target_branch: master
-  on:
-    branch: hexo-project
-  local-dir: public
