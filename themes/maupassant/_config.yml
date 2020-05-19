@@ -77,10 +77,10 @@ dark: false ## If you want to use the dark mode theme, set the value to true. No
 menu:
   - page: home
     directory: .
-    icon: fa-home
+    icon: fas fa-spider
   - page: archive
     directory: archives/
-    icon: fa-archive
+    icon: fas fa-paw
   - page: about
     directory: about/
     icon: fa-user
