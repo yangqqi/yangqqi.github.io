@@ -75,18 +75,18 @@ copycode: true ## If you want to enable one-click copy of the code blocks, set t
 dark: false ## If you want to use the dark mode theme, set the value to true. Note: This feature is not complete, please open an issue if you have any problem.
 
 menu:
-  - page: home
+  - page: 首页
     directory: .
-    icon: fas fa-spider
-  - page: archive
+    icon: fas fa-hippo
+  - page: 归档
     directory: archives/
-    icon: fas fa-paw
-  - page: about
+    icon: fas fa-crown
+  - page: 关于
     directory: about/
-    icon: fa-user
-  - page: rss
-    directory: atom.xml
-    icon: fa-rss
+    icon: fas fa-paw
+  # - page: rss
+  #   directory: atom.xml
+  #   icon: fa-rss
 
 widgets: ## Six widgets in sidebar provided: search, category, tag, recent_posts, rencent_comments and links.
   - search
@@ -97,12 +97,8 @@ widgets: ## Six widgets in sidebar provided: search, category, tag, recent_posts
   - links
 
 links:
-  - title: site-name1
-    url: http://www.example1.com/
-  - title: site-name2
-    url: http://www.example2.com/
-  - title: site-name3
-    url: http://www.example3.com/
+  - title: ruan yifeng
+    url: http://www.ruanyifeng.com/
 
 timeline:
   - num: 1
