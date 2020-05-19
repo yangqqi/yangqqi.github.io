@@ -2,21 +2,12 @@ sudo: false
 language: node_js
 node_js:
   - 10 # use nodejs v10 LTS
-
+cache: npm
 branches:
   only:
-    - hexo-project
-
-install:
-- npm ci
-# keep the npm cache around to speed up installs
-cache:
-  directories:
-  - "$HOME/.npm"
-
+    - hexo-project # build master branch only
 script:
   - hexo generate # generate static files
-
 deploy:
   provider: pages
   skip-cleanup: true
