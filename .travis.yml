@@ -1,22 +1,21 @@
 language: node_js
 node_js:
-  - 10 # use nodejs v10 LTS	  - 10 # use nodejs v10 LTS
+  - 10 # use nodejs v10 LTS
 
-cache: npm
-branches:	branches:
-  only:	  only:
-    - hexo-project	    - hexo-project # build master branch only
+branches:
+  only:
+    - hexo-project
 
-install:	
-- npm ci	
-# keep the npm cache around to speed up installs	
+install:
+- npm ci
+# keep the npm cache around to speed up installs
 cache:	
   directories:	
   - "$HOME/.npm"	
 
-script:	script:
-  - hexo generate # generate static files	  - hexo generate # generate static files
+script:
+  - hexo generate
 
-deploy:	deploy:
-  provider: pages	  provider: pages
+deploy:
+  provider: pages
   skip-cleanup: true
