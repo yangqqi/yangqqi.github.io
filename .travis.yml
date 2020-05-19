@@ -1,5 +1,5 @@
-language: node_js	language: node_js
-node_js:	node_js:
+language: node_js
+node_js:
   - 10 # use nodejs v10 LTS	  - 10 # use nodejs v10 LTS
 
 cache: npm
