@@ -4,6 +4,8 @@ date: 2019-05-14 12:00
 category: technology
 ---
 
+<!--more-->
+
 使用 [Jekyll][Jekyll] 初始化 [GitHub Pages][GitHub Pages]。
 
 [Jekyll]: https://www.jekyll.com.cn/

@@ -6,6 +6,8 @@ category: technology
 
 最近想把闲置了一年的 GitHub Pages 用起来，选了个简约的主题 [Maupassant](https://github.com/pagecho/maupassant) 整理下。
 
+<!--more-->
+
 ## 安装 [Maupassant-hexo](https://github.com/tufu9441/maupassant-hexo)
 
 安装 [Hexo](https://hexo.io/zh-cn/docs/) 前提：
