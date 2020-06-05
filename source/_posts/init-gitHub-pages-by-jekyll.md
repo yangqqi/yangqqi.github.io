@@ -1,6 +1,6 @@
 ---
 title: 使用 Jekyll 默认主题初始化 GitHub Pages
-date: 2019-05-14 12:00
+date: 2019-05-14
 category: technology
 ---
 
