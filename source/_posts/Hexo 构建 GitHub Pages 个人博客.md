@@ -1,5 +1,6 @@
 ---
 title: Hexo 管理 GitHub Pages 个人博客
+date: 2020-06-05
 category: technology
 ---
 
