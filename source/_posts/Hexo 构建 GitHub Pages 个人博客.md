@@ -1,8 +1,7 @@
 ---
+title: Hexo 管理 GitHub Pages 个人博客
 category: technology
 ---
-
-# Hexo 管理 GitHub Pages 个人博客
 
 最近想把闲置了一年的 GitHub Pages 用起来，选了个简约的主题 [Maupassant](https://github.com/pagecho/maupassant) 整理下。
 
