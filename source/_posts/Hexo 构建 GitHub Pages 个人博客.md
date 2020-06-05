@@ -24,7 +24,9 @@ category: technology
     npm run build
 ````
 
-这样就可以初始化一个简单的 hexo 项目。我选取了 Maupassant-hexo 作为主题模板，直接从仓库克隆下来：
+这样就可以初始化一个简单的 hexo 项目。
+
+我选取了 Maupassant-hexo 作为主题模板，直接从仓库克隆下来：
 
 ````shell
     git clone https://github.com/tufu9441/maupassant-hexo.git themes/maupassant
@@ -36,7 +38,9 @@ category: technology
 
 ## 使用 [Travis CI](https://travis-ci.com/) 将 Hexo 博客部署到 [GitHub Pages](https://pages.github.com/)
 
-[将 Hexo 部署到 GitHub Pages](https://hexo.io/zh-cn/docs/github-pages) Hexo 官方文档对使用 Travis CI 自动化构建有详细说明，需要注意的是，现在 GitHub Pages 以 <用户名>.github.io 为域名访问的仓库默认发布 master 分支为 pages，不允许设置其它分支；当然其它仓库依然允许设置其它分支为 pages。基于这个点，我们将 Hexo 站点文件夹推送到 hexo-project 分支，将 master 用来发布静态文件资源，并将 .travis.yml 配置文件改为：
+- [将 Hexo 部署到 GitHub Pages](https://hexo.io/zh-cn/docs/github-pages)
+
+Hexo 官方文档对使用 Travis CI 自动化构建有详细说明，需要注意的是，现在 GitHub Pages 以 <用户名>.github.io 为域名访问的仓库默认发布 master 分支为 pages，不允许设置其它分支；当然其它仓库依然允许设置其它分支为 pages。基于这个点，我们将 Hexo 站点文件夹推送到 hexo-project 分支，将 master 用来发布静态文件资源，并将 .travis.yml 配置文件改为：
 
 ````yml
     sudo: false
