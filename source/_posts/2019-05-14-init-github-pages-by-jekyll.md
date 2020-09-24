@@ -8,14 +8,9 @@ category: technology
 
 使用 [Jekyll][Jekyll] 初始化 [GitHub Pages][GitHub Pages]。
 
-[Jekyll]: https://www.jekyll.com.cn/
-[GitHub Pages]: https://yngkay.github.io/
-
 ## 安装 Ruby
 
 win10 使用 [RubyInstaller][RubyInstaller] 安装。
-
-[RubyInstaller]: https://rubyinstaller.org/downloads/
 
 ````shell
     ruby --version // 检查版本号
@@ -57,3 +52,7 @@ win10 使用 [RubyInstaller][RubyInstaller] 安装。
 
 - [windows 安装 Jekyll 步骤及问题--彭世瑜](https://blog.csdn.net/mouday/article/details/79300135)
 - [Jekyll 快速入门](https://www.jekyll.com.cn/docs/)
+
+[Jekyll]: https://www.jekyll.com.cn/
+[GitHub Pages]: https://yngqigithub.io/
+[RubyInstaller]: https://rubyinstaller.org/downloads/
