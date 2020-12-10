@@ -54,5 +54,5 @@ win10 使用 [RubyInstaller][RubyInstaller] 安装。
 - [Jekyll 快速入门](https://www.jekyll.com.cn/docs/)
 
 [Jekyll]: https://www.jekyll.com.cn/
-[GitHub Pages]: https://yngqigithub.io/
+[GitHub Pages]: https://yangqqigithub.io/
 [RubyInstaller]: https://rubyinstaller.org/downloads/
